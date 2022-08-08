@@ -5,60 +5,47 @@
  */
 /* Body */
 
-body
-{
-
-background-color: #222222;
-color: #E8F0FF;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+body {
+  background-color: #222222;
+  color: #e8f0ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  margin: 50px;
 }
 
-header
-{
-
-font-size: 70px;
-text-align: center;
-
+header {
+  font-size: 70px;
+  text-align: center;
 }
 
-hr 
-{
-
-  border-color: #E8F0FF;
+hr {
+  border-color: #e8f0ff;
   height: 1px;
-
 }
 
 .button,
 button,
 input[type="submit"],
 input[type="reset"],
-input[type="button"] 
-{
-
+input[type="button"] {
   display: inline-block;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
   font-size: 20px;
-  background-color: #E8F0FF;
+  background-color: #e8f0ff;
   color: #222222;
   border-radius: 10px;
   cursor: pointer;
   box-sizing: border-box;
-
 }
 
-nav 
-{
-
+nav {
   list-style-type: none;
-  margin: 0;
+  margin-top: 10px;
   padding: 1px 1px;
   overflow: hidden;
-
 }
 
 .button:focus:enabled,
@@ -72,8 +59,8 @@ input[type="reset"]:hover:enabled,
 input[type="button"]:focus:enabled,
 input[type="button"]:hover:enabled {
   background-color: #222222;
-  border-color: #E8F0FF;
-  color: #E8F0FF;
+  border-color: #e8f0ff;
+  color: #e8f0ff;
   outline: 0;
 }
 
@@ -91,14 +78,15 @@ input[type="button"]:hover:enabled {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -107,237 +95,24 @@ input[type="button"]:hover:enabled {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  color: #222222;
+}
+
+.flip-card-front img,
+.flip-card-back {
+  border-radius: 10px;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color: #e8f0ff;
+  color: #222222;
   transform: rotateY(180deg);
 }
 
-
-/*
-----------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
-*/
-
-html {
-  font-size: 100%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #bdd4e7;
-  color: #212227;
+#category-products h4 {
+  font-size: 20px;
 }
 
-body {
-  font-size: 1.8rem;
-  line-height: 1.618;
-  max-width: 38em;
-  margin: auto;
-  padding: 13px;
-}
-
-@media (max-width: 684px) {
-  body {
-    font-size: 1.53rem;
-  }
-}
-
-@media (max-width: 382px) {
-  body {
-    font-size: 1.35rem;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.1;
-  font-weight: 700;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-word;
-}
-
-h1 {
-  font-size: 2.35em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.75em;
-}
-
-h4 {
-  font-size: 1.5em;
-}
-
-h5 {
-  font-size: 1.25em;
-}
-
-h6 {
-  font-size: 1em;
-}
-
-p {
-  font-size: 100%;
-  margin-top: 1%;
-  margin-bottom: 2.5rem;
-}
-
-small,
-sub,
-sup {
-  font-size: 75%;
-}
-
-a {
-  text-decoration: none;
-  color: #1d7484;
-}
-a:hover {
-  color: #982c61;
-  border-bottom: 2px solid #4a4a4a;
-}
-a:visited {
-  color: #144f5a;
-}
-
-ul {
-  padding-left: 1.4em;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-}
-
-li {
-  margin-bottom: 0.4em;
-}
-
-blockquote {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 1em;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
-  padding-right: 0.8em;
-  border-left: 5px solid #1d7484;
-  margin-bottom: 2.5rem;
-  background-color: #f1f1f1;
-}
-
-blockquote p {
-  margin-bottom: 0;
-}
-
-img,
-video {
-  height: auto;
-  max-width: 100%;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-}
-
-/* Pre and Code */
-pre {
-  background-color: #f1f1f1;
-  display: block;
-  padding: 1em;
-  overflow-x: auto;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-  font-size: 0.9em;
-}
-
-code {
-  font-size: 0.9em;
-  padding: 0 0.5em;
-  background-color: #f1f1f1;
-  white-space: pre-wrap;
-}
-
-pre > code {
-  padding: 0;
-  background-color: transparent;
-  white-space: pre;
-  font-size: 1em;
-}
-
-/* Tables */
-table {
-  text-align: center;
-  width: 100%;
-  border-color: black;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: 0.5em;
-  border-bottom: 1px solid #f1f1f1;
-}
-
-/* Buttons, forms and input */
-input,
-textarea {
-  border: 1px solid #4a4a4a;
-}
-input:focus,
-textarea:focus {
-  border: 1px solid #1d7484;
-}
-
-textarea {
-  width: 100%;
-}
-
-.button[disabled],
-button[disabled],
-input[type="submit"][disabled],
-input[type="reset"][disabled],
-input[type="button"][disabled] {
-  cursor: default;
-  opacity: 0.5;
-}
-
-textarea,
-select,
-input {
-  color: #4a4a4a;
-  padding: 6px 10px;
-  /* The 6px vertically centers text on FF, ignored by Webkit */
-  margin-bottom: 10px;
-  background-color: #f1f1f1;
-  border: 1px solid #f1f1f1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box;
-}
-textarea:focus,
-select:focus,
-input:focus {
-  border: 1px solid #1d7484;
-  outline: 0;
-}
-
-input[type="checkbox"]:focus {
-  outline: 1px dotted #1d7484;
-}
-
-label,
-legend,
-fieldset {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
+#category-products p {
+  font-size: 20px;
 }

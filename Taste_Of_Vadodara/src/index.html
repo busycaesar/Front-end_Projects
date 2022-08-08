@@ -12,77 +12,32 @@
   </head>
 
   <body>
-
     <header>
       Taste Of Vadodara
-      <p style="font-size: 35px; margin-top: 1px;">Bite Vadodara's Apetite!!!</p>
+      <p style="font-size: 35px; margin-top: 1px">Bite Vadodara's Apetite!!!</p>
     </header>
 
     <hr />
-
-    <p style="margin-bottom: 0px;">Menu: </p>
+    <br />
+    <span style="border-radius: 10px; font-size: 40px">Menu</span>
+    <br />
     <nav id="menu"></nav>
 
-    <main>
+    <br />
+    <hr />
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="Images/bhakarwadibites.png" alt="Bhakarwadi Bites" style="width:300px;height:300px;">
-          </img>
-          </div>
-          <div class="flip-card-back">
-            <h4>Bhakarwadi Bites</h4> 
-            <p></p> 
-            <p>$4444</p>
-          </div>
-        </div>
-      </div>    
-      
-      <!--
-        Image, Name of the product, Description of the product, Price of the product.
-      -->
-      
-      <h2 id="selected-category">
+    <main>
+      <h2 id="selected-category" style="font-size: 50px; text-align: center">
         <!-- Dynamically update the selected category title -->
       </h2>
 
-    </main>
-
-        <!-- JavaScript Data Files -->
-        <script src="./js/categories.js"></script>
-        <script src="./js/products.js"></script>
-        
-        <!-- Main App JavaScript File -->
-        <script src="./js/app.js"></script>
-
-  </body>
-
-</html>
-
-<!--
-  -----------------------------------------------------------------------
-  -----------------------------------------------------------------------
-  -----------------------------------------------------------------------
--->
-
-
-      <table id="proTable">
-        <thead>
-          <td>NAME</td>
-          <td>DESCRIPTION</td>
-          <td>PRICE</td>
-        </thead>
-
-        <tbody id="category-products">
-          <!-- Dynamically create your product rows here -->
-        </tbody>
-      </table>
+      <div id="category-products"></div>
     </main>
 
     <!-- JavaScript Data Files -->
     <script src="./js/categories.js"></script>
     <script src="./js/products.js"></script>
+
     <!-- Main App JavaScript File -->
     <script src="./js/app.js"></script>
   </body>

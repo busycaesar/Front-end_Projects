@@ -1,0 +1,65 @@
+#mainHeading {
+  font-size: 60px;
+  color: #160f29;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 40px;
+}
+
+#mark {
+  background-color: black;
+  color: white;
+}
+
+.heading {
+  background-color: #160f29;
+  font-size: 40px;
+  color: #dad7cd;
+}
+
+figure {
+  font-size: 20px;
+  padding: 1px;
+}
+
+#introimg {
+  float: right;
+}
+
+img {
+  border: 5px solid #160f29;
+}
+
+#bodyStruct {
+  float: left;
+}
+
+a {
+  color: black;
+}
+
+.headingMargin {
+  margin-left: 10px;
+}
+
+.content {
+  font-size: 30px;
+}
+
+.fontstyle {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+  background-color: #dad7cd;
+  font-size: 30px;
+}
+
+iframe {
+  margin-top: 3%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+audio {
+  float: right;
+  margin-right: 120px;
+}

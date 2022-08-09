@@ -25,7 +25,9 @@ window.products = [
     description: "A bite size roll which is filled with spicy fillings.",
     price: 5,
     discontinued: false,
-    categories: ["00a"]
+    categories: ["00a"],
+    image: "Images/bhakarwadibites.png"
+
   },
 
   // OBJECT 2
@@ -35,7 +37,9 @@ window.products = [
     description: "A regular size roll which is filled with spicy fillings.",
     price: 7,
     discontinued: true,
-    categories: ["00a"]
+    categories: ["00a"],
+    image: "Images/regularbhakarwadi.png"
+
   },
 
   // OBJECT 3
@@ -45,7 +49,9 @@ window.products = [
     description: "A nut size roll which is filled with spicy fillings.",
     price: 3.5,
     discontinued: false,
-    categories: ["00a"]
+    categories: ["00a"],
+    image: "Images/minibhakarwadi.png"
+
   },
 
   // OBJECT 4
@@ -56,7 +62,9 @@ window.products = [
       "A regular size roll which is filled with spicy fillings. However, filling are made with ingredients with out ginger, garlic and onions.",
     price: 8,
     discontinued: true,
-    categories: ["00a"]
+    categories: ["00a"],
+    image: "Images/jainbhakarwadi.png"
+
   },
 
   // OBJECT 5
@@ -66,7 +74,9 @@ window.products = [
     description: "A wet gujarati snack made from grated potatoes, chana dal, and lemon juice.",
     price: 9.5,
     discontinued: false,
-    categories: ["00b"]
+    categories: ["00b"],
+    image: "Images/lilochevdo.png"
+
   },
 
   // OBJECT 6
@@ -76,7 +86,9 @@ window.products = [
     description: "A crunchy snack designed for kids and elders as its not much hard to eat.",
     price: 10,
     discontinued: false,
-    categories: ["00b"]
+    categories: ["00b"],
+    image: "Images/nylonchevdo.png"
+
   },
 
   // OBJECT 7
@@ -86,7 +98,9 @@ window.products = [
     description: "A gujarati mix snack made out of corn flacks.",
     price: 6.35,
     discontinued: false,
-    categories: ["00b"]
+    categories: ["00b"],
+    image: "Images/makaichevdo.png"
+
   },
 
   // OBJECT 8
@@ -96,7 +110,9 @@ window.products = [
     description: "A gujarati mix snack which is sour and sweet at the same time.",
     price: 7,
     discontinued: false,
-    categories: ["00b"]
+    categories: ["00b"],
+    image: "Images/khattamitthachevdo.png"
+
   },
 
   // OBJECT 9
@@ -107,7 +123,9 @@ window.products = [
       "A gujarati mix snack which prepared using ingredients which could be eaten while fasting",
     price: 10,
     discontinued: true,
-    categories: ["00b"]
+    categories: ["00b"],
+    image: "Images/fararichevdo.png"
+
   },
 
   // OBJECT 10
@@ -117,7 +135,9 @@ window.products = [
     description: "A crunchy gujarati snack made of chickpea flour, potato and spinach.",
     price: 9,
     discontinued: false,
-    categories: ["00c"]
+    categories: ["00c"],
+    image: "Images/aloopalaksev.png"
+
   },
 
   // OBJECT 11
@@ -127,7 +147,9 @@ window.products = [
     description: "A crunchy gujarati snack made of chickpea flour, potato and black peppercorns.",
     price: 8.4,
     discontinued: false,
-    categories: ["00c"]
+    categories: ["00c"],
+    image: "Images/aloomarisev.png"
+
   },
 
   // OBJECT 12
@@ -137,7 +159,9 @@ window.products = [
     description: "A crunchy gujarati snack made of chickpea flour.",
     price: 6,
     discontinued: true,
-    categories: ["00c"]
+    categories: ["00c"],
+    image: "Images/usalsev.png"
+
   },
 
   // OBJECT 13
@@ -147,7 +171,9 @@ window.products = [
     description: "A crunchy gujarati snack made of chickpea flour and lots of spicy flavors",
     price: 5.65,
     discontinued: false,
-    categories: ["00c"]
+    categories: ["00c"],
+    image: "Images/ratlamisev.png"
+
   },
 
   // OBJECT 10
@@ -157,6 +183,8 @@ window.products = [
     description: "A crunchy gujarati snack made of chickpea flour and tomato",
     price: 7,
     discontinued: false,
-    categories: ["00c"]
+    categories: ["00c"],
+    image: "Images/tomatosev.png"
+
   }
 ];

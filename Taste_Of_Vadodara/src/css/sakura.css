@@ -48,6 +48,12 @@ nav {
   overflow: hidden;
 }
 
+#btn0,
+#btn1,
+#btn1 {
+  margin-right: 10px;
+}
+
 .button:focus:enabled,
 .button:hover:enabled,
 button:focus:enabled,
@@ -99,7 +105,7 @@ input[type="button"]:hover:enabled {
 }
 
 .flip-card-front img,
-.flip-card-back {
+.flip-card-back{
   border-radius: 10px;
 }
 
@@ -109,10 +115,19 @@ input[type="button"]:hover:enabled {
   transform: rotateY(180deg);
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin: 1px;
+}
+
 #category-products h4 {
   font-size: 20px;
 }
 
 #category-products p {
+  margin: 10px;
   font-size: 20px;
 }

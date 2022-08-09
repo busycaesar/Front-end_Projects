@@ -96,7 +96,7 @@ function createCard(element) {
   price.innerHTML = new Intl.NumberFormat("de-DE", {
     style: "currency",
     currency: "CAD"
-  }).format(element.price);
+  }).format(element.price)+"/Kg";
 
   frontDiv.appendChild(imageOfProduct);
   backDiv.appendChild(title);

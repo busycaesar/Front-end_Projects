@@ -1,6 +1,6 @@
 # WEB 222 Web Programming Principles
 
-## These are Assignment 3, Assignment 4 and Assignment 5(Updated Version of Assignment 4) for which I made front-end of the website. 
+## These are two assignments of WEB 222 for which I made front-end of the website. 
 
 # Warning
 

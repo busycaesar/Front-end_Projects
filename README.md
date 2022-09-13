@@ -1,4 +1,4 @@
-# WEB222_Projects
+# WEB 222 Web Programming Principles
 
 ## These are all the projects which I have made in WEB 222.
 

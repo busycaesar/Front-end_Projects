@@ -1,6 +1,8 @@
 # WEB 222 Web Programming Principles
 
-## These are two assignments of WEB 222 for which I made front-end of the website. 
+## These are two assignments of WEB 222 for which I made front-end of the website.
+
+## Technologies Used: HTML5, CSS
 
 # Warning
 

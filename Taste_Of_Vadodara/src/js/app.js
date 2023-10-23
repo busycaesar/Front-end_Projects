@@ -1,18 +1,4 @@
 /* eslint-disable no-unused-vars */
-/**
- * WEB222 – Assignment 04
- *
- * I declare that this assignment is my own work in accordance with
- * Seneca Academic Policy. No part of this assignment has been
- * copied manually or electronically from any other source
- * (including web sites) or distributed to other students.
- *
- * Please update the following with your information:
- *
- *      Name:       DEV JIGISHKUMAR SHAH
- *      Student ID: 131623217
- *      Date:       09 / 08 / 2022
- */
 
 // All of our data is available on the global `window` object.
 // Create local variables to work with it in this file.
